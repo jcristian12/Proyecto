@@ -12,7 +12,7 @@
 
 
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -151,10 +151,10 @@
                     Choose Your Electric Car <Br> Of The Porsche Brand
                 </h2>
 
-                <div class="popular__container container">
-                    <div>
+                <div class="popular__container container swiper">
+                    <div class="swiper-wrapper">
                         <!--==================== CAR0 ====================-->
-                        <article class="popular__card">
+                        <article class="popular__card swiper-slide">
                             <div class="shape shape__smaller"></div>
 
                             <h1 class="popular__title">Porsche</h1>
@@ -183,7 +183,7 @@
                             </button>
                         </article>
                         <!--==================== CAR1 ====================-->
-                        <article class="popular__card">
+                        <article class="popular__card swiper-slide">
                             <div class="shape shape__smaller"></div>
 
                             <h1 class="popular__title">Porsche</h1>
@@ -212,7 +212,7 @@
                             </button>
                         </article>
                         <!--==================== Car2 ====================-->
-                        <article class="popular__card">
+                        <article class="popular__card swiper-slide">
                             <div class="shape shape__smaller"></div>
 
                             <h1 class="popular__title">Porsche</h1>
@@ -241,7 +241,7 @@
                             </button>
                         </article>
                         <!--==================== Car3 ====================-->
-                        <article class="popular__card">
+                        <article class="popular__card swiper-slide">
                             <div class="shape shape__smaller"></div>
 
                             <h1 class="popular__title">Porsche</h1>
@@ -270,7 +270,7 @@
                             </button>
                         </article>
                         <!--==================== Car4 ====================-->
-                        <article class="popular__card">
+                        <article class="popular__card swiper-slide">
                             <div class="shape shape__smaller"></div>
 
                             <h1 class="popular__title">Porsche</h1>
@@ -301,12 +301,22 @@
 
 
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
 
             <!--==================== FEATURES ====================-->
             <section class="features section">
-                
+                <h2 class="section__title">
+                    More Features
+                </h2>
+
+                <div class="features__container container">
+                    <div class="features__group">
+                        <img src="assets/img/features.png" alt="" class="features__img">
+                    </div>
+                </div>
+            
             </section>
 
             <!--==================== FEATURED ====================-->
@@ -338,7 +348,7 @@
         <script src=""></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--=============== MIXITUP JS ===============-->
         <script src=""></script>
