@@ -522,6 +522,42 @@ popular__img{
 
 /*=============== FEATURES ===============*/
 
+.features{
+  overflow: hidden;
+  position: realitve;
+
+}
+
+.features__container{
+  padding-top: 2rem;
+  grid-template-columns: 285px;
+  justify-content: center;
+}
+
+.features__group{
+  display: grid;
+  position: relative;
+  z-index: 10;
+}
+
+.features__img{
+  width: 150px;
+  justify-self: center;
+
+}
+
+.features__card{
+  width: 112px;
+  background-color: hsla(0,0%, 100%, .1);
+  backdrop-filter: blur(16px);
+  border-radius: 1.25rem;
+  padding: .75rem 2rem;
+  text-align: center;
+  color: var(--title-color);
+  position: absolute;
+
+}
+
 
 /*=============== FEATURED ===============*/
 
