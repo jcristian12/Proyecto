@@ -545,7 +545,7 @@ popular__img{
   justify-self: center;
 
 }
-
+/*Estilo de caja de Feature*/
 .features__card{
   width: 112px;
   background-color: hsla(0,0%, 100%, .1);
@@ -557,8 +557,23 @@ popular__img{
   position: absolute;
 
 }
+/*Estilo de caja de Feature 1*/
+.features__card-1{
+  top: 4rem;
+  left: 1.5rem;
 
+}
+/*Estilo de caja de Feature 2*/
+.features__card-2{
+  top: 8rem;
+  right: 1rem;
+}
 
+/*Estilo de caja de Feature 3*/
+.features__card-3{
+  left: 1.5rem;
+  bottom: 2rem;
+}
 /*=============== FEATURED ===============*/
 
 

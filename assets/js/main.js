@@ -44,6 +44,8 @@ window.addEventListener('scroll', scrollHeader)
 
 
 /*=============== POPULAR SWIPER ===============*/
+
+/*Metodo para mostrar diferentes elementos (autos) al deslizar */
 let swiperPopular = new Swiper(".popular__container", {
     loop: true,
     spaceBetween: 24,
