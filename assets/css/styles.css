@@ -574,6 +574,28 @@ popular__img{
   left: 1.5rem;
   bottom: 2rem;
 }
+/*Estilos para los titulos dentro de los features*/
+.features__card-title{
+  font-size: var(--h3-font-size);
+  margin-bottom: .25rem;
+
+}
+
+.features__card-descrption{
+  font-size: var(--smaller-font-size); 
+}
+/*Clase para imagen Mapa*/
+.features__map{
+  max-width: initial;
+  width: 450px;
+  position: absolute;
+  top: 129rem;
+  left: -0rem;
+  margin: auto;
+  transform: rotate(-22deg);
+}
+
+
 /*=============== FEATURED ===============*/
 
 
