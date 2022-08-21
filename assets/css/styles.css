@@ -131,7 +131,7 @@ img{
   filter: blur(64px);
 }
 /*=============== HEADER & NAV ===============*/
-
+/* ESte es la clase para el menu de navegacion */
 .header{
   width: 100%;
   background-color: transparent;
@@ -310,7 +310,7 @@ img{
   font-size: .874rem;
   margin-bottom: .75rem;
 }
-
+/* Esta es la clase para el boton purpura */
 .home__button{
   position: relative;
   border: 2px solid hsl(298, 90%, 30%);
@@ -356,7 +356,7 @@ img{
 
 
 
-/* Button animate */
+/* Animacion del boton Start */
 @keyframes button{
    
   0%{
@@ -464,7 +464,7 @@ img{
   font-weight: 400;
 }
 
-popular__img{
+.popular__img{
   width: 170px;
   margin: .75rem 0 1.25rem 1.5rem;
   transition: .3s;
@@ -581,7 +581,7 @@ popular__img{
 
 }
 
-.features__card-descrption{
+.features__card-description{
   font-size: var(--smaller-font-size); 
 }
 /*Clase para imagen Mapa*/
@@ -590,9 +590,10 @@ popular__img{
   width: 450px;
   position: absolute;
   top: 129rem;
-  left: -0rem;
+  left: -3rem;
   margin: auto;
-  transform: rotate(-22deg);
+  /* transform: rotate(-22deg); */
+  
 }
 
 
